@@ -1,0 +1,23 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 5px;
+}
+
+.box.pp{
+    background-color: blue;
+}
+.box.red{
+    background-color: red;
+}
+.box.blue{
+    background-color: aqua;
+}
+.box.green{
+    background-color: green;
+}
+
+a.aa{
+    color: red;
+}
