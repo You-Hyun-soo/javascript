@@ -52,7 +52,20 @@ complete.addEventListener('click',function(){
 //    }
     var flag = false;
 
+    for( var i =0; i< check2.length; i++ ){
+        
+        if( check2[i].checked == true ){
+            flag = true;
+        } else{
+            flag = false;
+            break;
+        }
+    }
+
     if(flag) {
         alert('다음을 진행합니다.')
     }
+        else{
+            alert('모두 선택하세요.')
+        }
 });
